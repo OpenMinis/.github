@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/OpenMinis/openminis.github.io/main/icon-light.png" width="96" alt="Open Minis" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OpenMinis/openminis.github.io/main/icon-dark.png" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OpenMinis/openminis.github.io/main/icon-light.png" />
+  <img src="https://raw.githubusercontent.com/OpenMinis/openminis.github.io/main/icon-dark.png" width="96" alt="Open Minis" />
+</picture>
 
 # Open Minis
 
