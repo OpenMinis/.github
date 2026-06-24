@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/196826578?s=200&v=4" width="100" alt="OpenMinis" />
+<img src="https://raw.githubusercontent.com/OpenMinis/openminis.github.io/main/icon-light.png" width="96" alt="Open Minis" />
 
-# OpenMinis
+# Open Minis
 
-**Your fully local AI Agent — on iPhone, iPad, and Android.**
+**Your Private On-Device AI Agent**
 
-Bring Claude, GPT, Gemini & more into a native experience with a built-in Linux shell, browser automation, extensible skills, persistent memory, and deep system integrations.
+An on-device AI agent that goes beyond chat. It takes action — browsing the web, accessing your health data, managing your schedule, controlling your smart home, and automating complex tasks. All privately on your device.
 
-[![App Store](https://img.shields.io/badge/App_Store-Download-black?logo=apple&style=flat-square)](https://apps.apple.com/app/minis-ai-agent/id6743570413)
-[![TestFlight](https://img.shields.io/badge/TestFlight-Beta-blue?logo=apple&style=flat-square)](https://testflight.apple.com/join/sSp5EqBO)
-[![Telegram](https://img.shields.io/badge/Community-Telegram-2CA5E0?logo=telegram&style=flat-square)](https://t.me/openminis)
+[![App Store](https://img.shields.io/badge/App_Store-Download-black?logo=apple&logoColor=white&style=flat-square)](https://apps.apple.com/app/id6759188481)
+[![Android](https://img.shields.io/badge/Android-Preview-3DDC84?logo=android&logoColor=white&style=flat-square)](https://github.com/OpenMinis/OpenMinis/releases)
+[![Telegram](https://img.shields.io/badge/Community-Telegram-2CA5E0?logo=telegram&logoColor=white&style=flat-square)](https://t.me/openminis)
 [![Website](https://img.shields.io/badge/Website-openminis.app-FF6B35?style=flat-square)](https://openminis.app)
 
 </div>
@@ -21,35 +21,96 @@ Bring Claude, GPT, Gemini & more into a native experience with a built-in Linux 
 
 | Repository | Description | Stars |
 |---|---|---|
-| [**OpenMinis**](https://github.com/OpenMinis/OpenMinis) | Main app repository — AI Agent across platforms (iOS & Android). Source code opening soon. | [![Stars](https://img.shields.io/github/stars/OpenMinis/OpenMinis?style=flat-square&color=gold)](https://github.com/OpenMinis/OpenMinis/stargazers) |
-| [**MinisSkills**](https://github.com/OpenMinis/MinisSkills) | Official skills collection — reusable instruction sets that extend Claude's capabilities with specialized knowledge and workflows. | [![Stars](https://img.shields.io/github/stars/OpenMinis/MinisSkills?style=flat-square&color=gold)](https://github.com/OpenMinis/MinisSkills/stargazers) |
-| [**AwesomeMinis**](https://github.com/OpenMinis/AwesomeMinis) | Community-curated real-world use cases, workflows, and creative scenarios built with Minis. | [![Stars](https://img.shields.io/github/stars/OpenMinis/AwesomeMinis?style=flat-square&color=gold)](https://github.com/OpenMinis/AwesomeMinis/stargazers) |
-| [**MinisDefaults**](https://github.com/OpenMinis/MinisDefaults) | Default configuration presets for Minis — providers, models, and agent loop entries. | [![Stars](https://img.shields.io/github/stars/OpenMinis/MinisDefaults?style=flat-square&color=gold)](https://github.com/OpenMinis/MinisDefaults/stargazers) |
+| [**OpenMinis**](https://github.com/OpenMinis/OpenMinis) | Main app repository — AI Agent for iOS, iPadOS, macOS & Android. Open source coming soon. | [![Stars](https://img.shields.io/github/stars/OpenMinis/OpenMinis?style=flat-square&color=gold&label=stars)](https://github.com/OpenMinis/OpenMinis/stargazers) |
+| [**MinisSkills**](https://github.com/OpenMinis/MinisSkills) | Official skills collection — reusable `SKILL.md` instruction sets that extend the agent with specialized workflows. | [![Stars](https://img.shields.io/github/stars/OpenMinis/MinisSkills?style=flat-square&color=gold&label=stars)](https://github.com/OpenMinis/MinisSkills/stargazers) |
+| [**AwesomeMinis**](https://github.com/OpenMinis/AwesomeMinis) | Community-curated real-world use cases, workflows, and creative scenarios built with Minis. | [![Stars](https://img.shields.io/github/stars/OpenMinis/AwesomeMinis?style=flat-square&color=gold&label=stars)](https://github.com/OpenMinis/AwesomeMinis/stargazers) |
+| [**MinisDefaults**](https://github.com/OpenMinis/MinisDefaults) | Default configuration presets — providers, models, and agent loop entries. | [![Stars](https://img.shields.io/github/stars/OpenMinis/MinisDefaults?style=flat-square&color=gold&label=stars)](https://github.com/OpenMinis/MinisDefaults/stargazers) |
 
 ---
 
-## ✨ What is Minis?
+## ✨ Features
 
-Minis is an **AI Agent app** that runs natively on your iPhone, iPad, and Android device. Unlike web-based AI tools, Minis gives the agent real capabilities:
+<table>
+<tr>
+<td width="50%">
 
-- 🐚 **Built-in Linux Shell** — a real Alpine Linux environment (iSH) runs entirely on-device; the agent can execute shell commands, run Python scripts, and manage files
-- 🌐 **Browser Automation** — full WebKit browser with scripting support for web research and automation
-- 🧠 **Persistent Memory** — global and daily memory logs that carry knowledge across sessions
-- 🔌 **MCP Support** — connect to any Model Context Protocol server
-- 🛠️ **Extensible Skills** — install community skills to add new capabilities in seconds
-- 📱 **Deep System Integration** — access HealthKit, HomeKit, Reminders, Calendar, Photos, Location, and more via native Apple APIs
+**🤖 Multi-Model AI**<br>
+Connect to Anthropic Claude, OpenAI GPT, Google Gemini, OpenRouter, or any OpenAI-compatible endpoint. Switch models per conversation.
+
+</td>
+<td width="50%">
+
+**🐚 Built-in Linux Shell**<br>
+A full Alpine Linux environment runs on-device. The agent writes and executes scripts, installs packages, and processes data — no server needed.
+
+</td>
+</tr>
+<tr>
+<td>
+
+**📱 Deep iOS Integration**<br>
+Native access to HealthKit, Calendar, Reminders, HomeKit, Contacts, Bluetooth, Location, Photos, Speech, and more.
+
+</td>
+<td>
+
+**🌐 Web Browser**<br>
+The agent browses the web, fills forms, extracts content, and takes screenshots — all within the app.
+
+</td>
+</tr>
+<tr>
+<td>
+
+**🛠️ Custom Skills**<br>
+Import or create AI skills to extend the agent's capabilities. Compatible with the open `SKILL.md` format.
+
+</td>
+<td>
+
+**🔒 Privacy by Design**<br>
+API keys stay in your device Keychain. No data collected. No third-party analytics. Your conversations are yours.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📦 Download
+
+| Platform | Download | Requirements |
+|---|---|---|
+| 🍎 **iOS / iPadOS** | [**App Store →**](https://apps.apple.com/app/id6759188481) | iOS 16+ / iPadOS 16+ |
+| 🖥️ **macOS** | [**App Store →**](https://apps.apple.com/app/id6759188481) | macOS 13+ (Apple Silicon) |
+| 🥽 **visionOS** | [**App Store →**](https://apps.apple.com/app/id6759188481) | visionOS 1.0+ |
+| 🤖 **Android** | [**GitHub Releases →**](https://github.com/OpenMinis/OpenMinis/releases) | Preview — coming soon |
+
+---
+
+## 🔌 Supported AI Providers
+
+Open Minis supports multiple AI providers. You need at least one API key to get started.
+
+| Provider | Models | Get API Key |
+|---|---|---|
+| **Anthropic** | Claude Opus 4.6, Sonnet 4.6, Haiku 4.5 | [console.anthropic.com](https://console.anthropic.com/) |
+| **OpenAI** | GPT-4o, o-series | [platform.openai.com](https://platform.openai.com/api-keys) |
+| **Google Gemini** | Gemini 2.5 Pro/Flash, 3 Pro/Flash | [aistudio.google.com](https://aistudio.google.com/apikey) |
+| **OpenRouter** | Multi-provider routing | [openrouter.ai](https://openrouter.ai/keys) |
+| **Custom** | Any OpenAI-compatible API | Your provider's dashboard |
 
 ---
 
 ## 🛠️ Skills Ecosystem
 
-Skills are reusable instruction sets stored as `SKILL.md` files that extend the agent with specialized workflows. Browse and install from [**MinisSkills**](https://github.com/OpenMinis/MinisSkills).
+Skills are reusable instruction sets stored as `SKILL.md` files that give the agent specialized knowledge and workflows — install in seconds, share with the community.
 
-**Popular skills include:**
+**Popular skills from [MinisSkills](https://github.com/OpenMinis/MinisSkills):**
 
 | Skill | What it does |
 |---|---|
-| `github-trending` | Fetch GitHub Trending and generate bilingual summaries |
+| `github-trending` | Fetch GitHub Trending and generate bilingual summaries with optional TTS playback |
 | `twitter-x-hub` | Read/write Twitter/X data via cookie auth |
 | `bilibili-hub` | Search, download, and analyze Bilibili content |
 | `health-sleep-analysis` | Analyze Apple Health sleep data with AI insights |
@@ -58,35 +119,19 @@ Skills are reusable instruction sets stored as `SKILL.md` files that extend the 
 | `12306-query` | Query China rail tickets and schedules |
 | `doubao-tts` | Text-to-speech via Doubao (ByteDance) |
 
-→ [Browse all 40+ skills](https://github.com/OpenMinis/MinisSkills)
+→ [Browse all 40+ skills in MinisSkills](https://github.com/OpenMinis/MinisSkills)
 
 ---
 
 ## 🌟 Community Use Cases
 
-Real workflows built by the Minis community — from health monitoring to creative automation. See [**AwesomeMinis**](https://github.com/OpenMinis/AwesomeMinis) for the full collection.
+Real workflows built by the Minis community. See [**AwesomeMinis**](https://github.com/OpenMinis/AwesomeMinis) for the full collection — contributions welcome!
 
 - 🫀 Apple Watch heart health monitoring with daily AI summaries
 - 📊 One-click PPT generation from a topic
 - 🌅 Smart daily briefing with weather, calendar, and news
-- 🧳 Travel planning with 12306 + maps integration
+- 🚄 Travel planning with 12306 + maps integration
 - 📰 GitHub Trending podcast with TTS playback
-
----
-
-## 📦 Download & Community
-
-<div align="center">
-
-| Platform | Link |
-|---|---|
-| 🍎 iOS / iPadOS | [App Store](https://apps.apple.com/app/minis-ai-agent/id6743570413) · [TestFlight Beta](https://testflight.apple.com/join/sSp5EqBO) |
-| 🤖 Android | Coming soon — [join TestFlight / Telegram for updates](https://t.me/openminis) |
-| 💬 Community | [Telegram Group](https://t.me/openminis) |
-| 🐛 Bug Reports | [GitHub Issues → OpenMinis/OpenMinis](https://github.com/OpenMinis/OpenMinis/issues) |
-| 🌐 Website | [openminis.app](https://openminis.app) |
-
-</div>
 
 ---
 
@@ -103,6 +148,7 @@ We welcome contributions across all repositories!
 
 <div align="center">
 
-Made with ❤️ by [@wsvn53](https://github.com/wsvn53) and the Minis community
+Made with ❤️ by [@wsvn53](https://github.com/wsvn53) and the Open Minis community<br>
+[openminis.app](https://openminis.app) · [Privacy Policy](https://openminis.github.io/privacy-policy.html) · [Contact](mailto:dev@openminis.me)
 
 </div>
