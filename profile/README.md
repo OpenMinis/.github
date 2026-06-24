@@ -14,7 +14,7 @@ An on-device AI agent that goes beyond chat. It takes action — browsing the we
 
 [![App Store](https://img.shields.io/badge/App_Store-Download-black?logo=apple&logoColor=white&style=flat-square)](https://apps.apple.com/app/id6759188481)
 [![Android](https://img.shields.io/badge/Android-Preview-3DDC84?logo=android&logoColor=white&style=flat-square)](https://github.com/OpenMinis/OpenMinis/releases)
-[![Telegram](https://img.shields.io/badge/Community-Telegram-2CA5E0?logo=telegram&logoColor=white&style=flat-square)](https://t.me/openminis)
+[![Telegram](https://img.shields.io/badge/Community-Telegram-2CA5E0?logo=telegram&logoColor=white&style=flat-square)](https://t.me/+2NzhOJuzRyI1YmM1)
 [![Website](https://img.shields.io/badge/Website-openminis.app-FF6B35?style=flat-square)](https://openminis.app)
 
 </div>
@@ -146,7 +146,7 @@ We welcome contributions across all repositories!
 - **Submit a skill** → Open a PR to [MinisSkills](https://github.com/OpenMinis/MinisSkills)
 - **Share a use case** → Open a PR or Issue to [AwesomeMinis](https://github.com/OpenMinis/AwesomeMinis)
 - **Report bugs / request features** → [OpenMinis Issues](https://github.com/OpenMinis/OpenMinis/issues)
-- **Join the discussion** → [Telegram Community](https://t.me/openminis)
+- **Join the discussion** → [Telegram Community](https://t.me/+2NzhOJuzRyI1YmM1)
 
 ---
 
